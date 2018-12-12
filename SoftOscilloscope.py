@@ -17,7 +17,7 @@ class BasePlot(object):
         self.layout.closeEvent = self.handle_close_event
         self.view.setCentralItem(self.layout)
         self.view.show()
-        self.view.setWindowTitle('Sandoval Oscilloscope')
+        self.view.setWindowTitle('Software Oscilloscope')
         self.view.resize(1024,768)
         self.plot_list = []
 
