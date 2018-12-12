@@ -21,7 +21,6 @@ Dependencies
 How To Run:
 - `sudo python osci.py`
 - Open new console window type `python`
-- 
 ```
 >>>from SoftOscilloscope import SocketClientPlot
 >>>plot = SocketClientPlot('localhost', 9000)
