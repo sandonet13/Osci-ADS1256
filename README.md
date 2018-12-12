@@ -19,4 +19,13 @@ Dependencies
 + VC++ for Python
 
 How To Run:
-1. 
+- `sudo python osci.py`
+- Open new console window type `python`
+- 
+```
+>>>from SoftOscilloscope import SocketClientPlot
+>>>plot = SocketClientPlot('localhost', 9000)
+>>>plot.start()
+```
+
+For more configuration about interfacing and visualization please visit original creator of this module above.
